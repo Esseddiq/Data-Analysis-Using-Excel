@@ -26,7 +26,7 @@ I used Power Query to extract [Data Jobs Posting All](/Data%20Analysis%20Using%2
 Using Power Query to do some cleaning and transformations on both queries:  
 **Salary Data jobs Query cleaning**  
 
-![query1 cleaning steps](./Data%20Analysis%20Using%20Excel/Images/data%20jobs%20salary%20Applied%20steps.png)  
+![query1 cleaning steps](../Data%20Analysis%20Using%20Excel/Images/data%20jobs%20salary%20Applied%20steps.png)  
 
 **Job Skills Query Cleaning**  
 ![job skills query img](/Data%20Analysis%20Using%20Excel/Images/jobs%20skills%20Applied%20steps.png)  
