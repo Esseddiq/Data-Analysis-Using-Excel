@@ -26,7 +26,7 @@ I used Power Query to extract [Data Jobs Posting All](/Data%20Analysis%20Using%2
 Using Power Query to do some cleaning and transformations on both queries:  
 **Salary Data jobs Query cleaning**  
 
-![query1 cleaning steps](/Data%20Analysis%20Using%20Excel/Images/data%20jobs%20salary%20Applied%20steps.png)  
+![query1 cleaning steps](./Data%20Analysis%20Using%20Excel/Images/data%20jobs%20salary%20Applied%20steps.png)  
 
 **Job Skills Query Cleaning**  
 ![job skills query img](/Data%20Analysis%20Using%20Excel/Images/jobs%20skills%20Applied%20steps.png)  
@@ -62,7 +62,7 @@ Using the power of **Pivot Tables Agregations Mesures and Charts** I was able to
 - The processus of solving this question it was much simpler then question1. building on the question1 second query   
 - First I loaded the second query (Job Skills) into a **Pivot table** using the **COUNT(job_skills)** Agregation function to count the skills accurance.  
 - then I've sorted the results to get the **Top 10 Most Demanded Skills.** Using the *job title slicer* it helped to filter for my role.  
-                 
+
 ![project sheet image](/Data%20Analysis%20Using%20Excel/Images/question2%20sheet%20image.png)
 
 
