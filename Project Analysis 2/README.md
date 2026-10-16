@@ -1,5 +1,5 @@
 # Introduction  
-This project 2 analysis focuses on data skills demand and pay analysis, using real world data set you can check the main data in this link: [Data Jobs Posting All](/Data%20Analysis%20Using%20Excel/Main%20Worked%20on%20Data/data_jobs_salary_all.xlsx).  
+This project 2 analysis focuses on data skills demand and pay analysis, using real world data set you can check the main data in this link: [Data Jobs Posting All](../Main%20Worked%20on%20Data/data_jobs_salary_all.xlsx).  
 with the help of the power of Microsoft Excel buit in tools I've answered the main following question.  
 # Questions To answer🔐
 As a Data Analyst learner and a job sekker it's logiclly to ask:
