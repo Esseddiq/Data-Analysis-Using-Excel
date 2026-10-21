@@ -42,11 +42,11 @@ I used Power Query to clean and transform both queries.
 
 **Salary Data Query Cleaning**
 
-![Salary data query cleaning steps](../Images/data%20jobs%20salary%20Applied%20steps.png)
+![Salary data query cleaning steps](./Images%20p2/data%20jobs%20salary%20Applied%20steps.png)
 
 **Job Skills Query Cleaning**
 
-![Job skills query cleaning steps](../Images/jobs%20skills%20Applied%20steps.png)
+![Job skills query cleaning steps](./Images%20p2/jobs%20skills%20Applied%20steps.png)
 
 *Note: The second query references the first and adds the transformation steps shown above. This produces a list of distinct skill names and their associated job IDs.*
 
@@ -56,23 +56,23 @@ After applying the transformations, the two queries looked like this:
 
 **Salary Data**
 
-![Salary data jobs](../Images/data%20jobs%20salary%20query%20view.png)
+![Salary data jobs](./Images%20p2/data%20jobs%20salary%20query%20view.png)
 
 **Job Skills**
 
-![Job skills table](../Images/jobs%20skills%20view%20.png)
+![Job skills table](./Images%20p2/jobs%20skills%20view%20.png)
 
 I then loaded both queries into the Power Pivot Data Model and created a relationship between the tables using the `job_id` column.
 
 **Data Model Diagram View**
 
-![Data Model diagram view](../Images/job%20skills%20and%20data%20jobs%20salary%20diagram%20view.png)
+![Data Model diagram view](./Images%20p2/job%20skills%20and%20data%20jobs%20salary%20diagram%20view.png)
 
 ### 4. 📊 Visualize
 
 Using Pivot Tables, aggregation measures, and charts, I was able to visualize some findings.
 
-![More skills, more pay chart](../Images/chart1.png)
+![More skills, more pay chart](./Images%20p2/chart1.png)
 
 ### 💡 Insights
 
@@ -90,7 +90,7 @@ The process for answering this question was simpler than the first one. I built 
 1. First, I loaded the second query (`Job Skills`) into a Pivot Table and used the `COUNT` aggregation on `job_skills` to count how often each skill appeared.
 2. Then, I sorted the results to identify the **10 most in-demand skills**. I also used the job title slicer to filter the results for a specific role.
 
-![Project sheet for Question 2](../Images/question2%20sheet%20image.png)
+![Project sheet for Question 2](./Images%20p2/question2%20sheet%20image.png)
 
 *This worksheet screenshot shows the results of the steps described above.* 📊
 
@@ -137,7 +137,7 @@ CALCULATE(
 
 4. I also used a country slicer to select a specific country and compare its median salary with the US median salary and the median salary for countries outside the US.
 
-![Regional median salary worksheet](../Images/regions%20median%20salary%20image.png)
+![Regional median salary worksheet](./Images%20p2/regions%20median%20salary%20image.png)
 
 *This worksheet screenshot shows the results of the steps described above.*
 
@@ -170,7 +170,7 @@ CALCULATE(
 3. I selected the 10 most frequently occurring skills and then ordered them by median salary.
 4. To visualize the results, I created an advanced combination Pivot Chart. The skill count is represented by a line with markers, while the median salary is represented by clustered columns. The two measures use separate axes.
 
-![Optimal skills worksheet](../Images/optimal%20skills%20sheet%20image.png)
+![Optimal skills worksheet](./Images%20p2/optimal%20skills%20sheet%20image.png)
 
 *This worksheet screenshot shows the results of the steps described above.* 📊
 
