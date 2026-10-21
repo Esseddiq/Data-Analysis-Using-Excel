@@ -64,7 +64,8 @@ IF(
 - 🔍 Multi-Criteria Filtering: Checks job title, country, schedule type, and excludes blank salaries.
 - 📊 Array Formula: Utilizes MEDIAN() function with nested IF() statement to analyze an array.
 - 🎯 Tailored Insights: Provides specific salary information for regions,job title and schedule types.
-- 🔢 Formula Purpose: This formula populates the table below(only first ones the original table is too large), returning the median salary based on Country, job title, and scheduel type specified.
+- 🔢 Formula Purpose: This formula populates the table below(only first ones the original table is too large), returning the median salary based on Country, job title, and scheduel type specified.  
+
 ![countries table](./images%20p1/countries%20table.png)
 
 ### 💰 Median Salary For Job scheduel Type
